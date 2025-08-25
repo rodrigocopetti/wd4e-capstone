@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YUMISTRY</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +14,11 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/palette.css">
+  <link rel="stylesheet" href="css/carousel.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
   <header class="header">
     <div class="header__container">
@@ -31,8 +34,8 @@
         </button>
         <ul>
           <!-- <li class="active"><a href="index.html">Home</a></li> -->
-          <li><a href="recipes.html">Recipes</a></li>
-          <li><a href="ingredients.html">Ingredients</a></li>
+          <li><a href="pages/recipes.html">Recipes</a></li>
+          <li><a href="pages/nutrients.html">Nutrients</a></li>
         </ul>
       </nav>
       <button class="header__btn header__user-btn" aria-label="Usuário">
@@ -41,8 +44,10 @@
     </div>
   </header>
   <main>
-    <h1>Welcome to YUMISTRY</h1>
-    <p>Your one-stop solution for all your culinary needs.</p>
+    <div class="main__description">
+      <h1>Welcome to YUMISTRY</h1>
+      <p>Your one-stop solution for all your culinary needs.</p>
+    </div>
 
     <div class="carousel">
       <div class="carousel__slides">
@@ -56,8 +61,8 @@
         <div class="carousel__slide">
           <img src="images/carousel2.jpg" alt="Delicious Dish 2">
           <div class="carousel__caption">
-            <h2>Fresh Ingredients</h2>
-            <p>Find the best ingredients for your next meal.</p>
+            <h2>Fresh Nutrients</h2>
+            <p>Find the best nutrients for your next meal.</p>
           </div>
         </div>
         <div class="carousel__slide">
@@ -88,4 +93,5 @@
 
   <script src="js/scripts.js"></script>
 </body>
+
 </html>

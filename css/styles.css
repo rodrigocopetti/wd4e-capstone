@@ -8,6 +8,7 @@ body {
 
 main {
   flex: 1;
+  padding: 3rem;
 }
 
 footer {
@@ -16,6 +17,14 @@ footer {
   text-align: center;
   padding: 1rem 0;
   box-shadow: 0 -2px 8px var(--yi-divider);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--yi-h1-color);
+  margin-bottom: 1rem;
 }
 
 /* Header layout */
@@ -158,6 +167,10 @@ footer {
   color: var(--yi-primary-dark);
 }
 
+.main__description {
+  margin-bottom: 2rem;
+}
+
 /* Desktop/tablet: nav sempre visível, layout horizontal */
 @media (min-width: 768px) {
   body {
@@ -204,103 +217,3 @@ footer {
   }
 }
 
-.carousel {
-  position: relative;
-  max-width: 600px;
-  margin: 2rem auto;
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  background: var(--yi-surface, #fff);
-}
-
-.carousel__slides {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.carousel__slide {
-  min-width: 100%;
-  opacity: 0;
-  transition: opacity 0.5s;
-  position: relative;
-  display: none;
-  flex-shrink: 0;
-}
-
-.carousel__slide.active {
-  opacity: 1;
-  display: block;
-}
-
-.carousel__slide img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 12px 12px 0 0;
-}
-
-.carousel__caption {
-  position: absolute;
-  bottom: 16px;
-  left: 16px;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.carousel__control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: var(--yi-primary-light, #eee);
-  border: none;
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 2;
-  font-size: 1.25rem;
-  color: var(--yi-primary-dark, #333);
-  transition: background 0.2s;
-}
-
-.carousel__control--prev {
-  left: 12px;
-}
-
-.carousel__control--next {
-  right: 12px;
-}
-
-.carousel__control:hover {
-  background: var(--yi-primary, #ccc);
-  color: #fff;
-}
-
-.carousel__indicators {
-  position: absolute;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 8px;
-}
-
-.carousel__indicators span {
-  display: block;
-  width: 12px;
-  height: 12px;
-  background: var(--yi-divider, #bbb);
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.carousel__indicators .active {
-  background: var(--yi-primary, #333);
-}
