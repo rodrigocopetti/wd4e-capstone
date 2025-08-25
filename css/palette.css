@@ -1,0 +1,47 @@
+:root {
+  /* Primary Colors */
+  --yi-primary: #4285F4;      
+  --yi-primary-light: #73a6f9;
+  --yi-primary-dark: #1967d2;
+
+  /* Secondary Colors */
+  --yi-secondary: #EA4335;     
+  --yi-secondary-light: #ff6f60;
+  --yi-secondary-dark: #b31412;
+
+  /* Success & Error */
+  --yi-success: #34A853;       
+  --yi-success-light: #7bc67e;
+  --yi-success-dark: #257942;
+
+  --yi-error: #EA4335;
+  --yi-error-light: #ff6f60;
+  --yi-error-dark: #b31412;
+
+  /* Warning & Info */
+  --yi-warning: #FBBC05;       
+  --yi-warning-light: #ffe083;
+  --yi-warning-dark: #c49000;
+
+  --yi-info: #4285F4;
+  --yi-info-light: #73a6f9;
+  --yi-info-dark: #1967d2;
+
+  /* Neutral / Background */
+  --yi-background: #F5F5F5;
+  --yi-surface: #FFFFFF;
+  --yi-on-primary: #FFFFFF;
+  --yi-on-secondary: #FFFFFF;
+  --yi-on-background: #202124;
+  --yi-on-surface: #202124;
+
+  /* Divider/Borders */
+  --yi-divider: #E0E0E0;
+
+
+  --yi-nav-hover-color: #FFFFFF;
+  --yi-nav-hover-bgcolor: #73a6f9;
+
+  --yi-nav-active-color: #FFFFFF;
+  --yi-nav-active-bgcolor: orange;
+}
