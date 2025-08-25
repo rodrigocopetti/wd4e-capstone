@@ -25,16 +25,33 @@
 .recipe-card__thumb {
   border: 2px solid transparent;
   border-radius: 4px;
-  transition: border 0.2s;
+  transition: border 0.2s, opacity 0.3s;
+  opacity: 0.7; 
 }
 .recipe-card__thumb:hover {
   border: 2px solid #f90;
+  opacity: 1;
 }
 .recipe-card__title {
   text-align: center;
   font-size: 1.2em;
   margin-top: 8px;
   font-weight: 500;
+}
+.recipe-card__view-btn {
+  display: block;
+  margin: 12px auto 0 auto;
+  padding: 8px 20px;
+  background: #f90;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.recipe-card__view-btn:hover {
+  background: #e67c00;
 }
 
 #recipe-cards {

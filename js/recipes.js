@@ -6,6 +6,7 @@ const recipes = [
       "../images/roast_pork_loin/img2.jpg",
       "../images/roast_pork_loin/img3.jpg",
     ],
+    link: "recipes/roast_pork_loin.html",
   },
   {
     title: "Shrimp with garlic and oil",
@@ -14,6 +15,7 @@ const recipes = [
       "../images/shrimp_with_garlic_and_oil/img2.jpg",
       "../images/shrimp_with_garlic_and_oil/img3.jpg",
     ],
+    link: "recipes/shrimp_with_garlic_and_oil.html",
   },
   {
     title: "Tomatoes stuffed with seasoned ricotta cream",
@@ -22,6 +24,7 @@ const recipes = [
       "../images/tomatoes_stuffed_with_ricotta/img2.jpg",
       "../images/tomatoes_stuffed_with_ricotta/img3.jpg",
     ],
+    link: "recipes/tomatoes_stuffed_with_ricotta.html",
   },
 ];
 
@@ -33,6 +36,7 @@ recipes.forEach((recipe) => {
   const mainImg = card.querySelector(".recipe-card__main-img");
   const thumbnails = card.querySelector(".recipe-card__thumbnails");
   const title = card.querySelector(".recipe-card__title");
+  const viewBtn = card.querySelector(".recipe-card__view-btn");
 
   mainImg.src = recipe.images[0];
   mainImg.alt = recipe.title + " main image";
@@ -51,6 +55,10 @@ recipes.forEach((recipe) => {
     };
     thumbnails.appendChild(thumb);
   });
+
+  viewBtn.onclick = () => {
+    window.location.href = recipe.link;
+  };
 
   cardsContainer.appendChild(card);
 });

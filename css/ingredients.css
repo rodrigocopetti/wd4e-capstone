@@ -1,0 +1,93 @@
+/* Container for the ingredients section */
+.recipe-ingredients {
+  margin: 2em 0;
+}
+
+/* Ingredients section title */
+.recipe-ingredients h2 {
+  font-size: 1.35em;
+  color: #b85c38;
+  margin-bottom: 1em;
+}
+
+/* Ingredients list grid */
+.recipe-ingredients ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2em;
+}
+
+/* Individual ingredient item */
+.recipe-ingredients li {
+  display: flex;
+  align-items: center;
+  background: #fff8f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1em;
+}
+
+/* Ingredient image */
+.recipe-ingredients img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Ingredient text */
+.recipe-ingredients span {
+  font-size: 1.08em;
+}
+
+/* Main recipe image */
+.recipe-main-img__img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+
+
+/* Recipe description section */
+.recipe-description {
+  margin: 1.5em 0;
+}
+
+/* Recipe description text */
+.recipe-description__text {
+  font-size: 1.15em;
+  line-height: 1.7;
+  color: #444;
+  background: #faf7f2;
+  padding: 1.5em 2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Highlighted text in description */
+.recipe-description__highlight {
+  color: #b85c38;
+  font-weight: 500;
+}
+
+
+/* Centralize and stretch image in recipe-main-img for screens >= 992px */
+@media (min-width: 992px) {
+  .recipe-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+  }
+  .recipe-main-img__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    /* max-width: 900px; */
+  }
+}
