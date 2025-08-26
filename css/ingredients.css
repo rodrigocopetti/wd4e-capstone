@@ -75,7 +75,7 @@
 
 
 /* Centralize and stretch image in recipe-main-img for screens >= 992px */
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .recipe-main-img {
     display: flex;
     justify-content: center;

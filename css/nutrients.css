@@ -1,0 +1,70 @@
+/* Nutrients section styles */
+/* .nutrients-section {
+  max-width: 90vw;
+  margin: 2em auto;
+  padding: 0 1em;
+} */
+
+.nutrient-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.nutrient-item {
+  display: flex;
+  flex-direction: column; /* Adicionado para empilhar verticalmente */
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  background: #fff8f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1em;
+}
+
+.nutrient-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.nutrient-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5em;
+}
+
+.nutrient-header h2 {
+  margin-bottom: 0;
+  font-size: 1.15em;
+  color: #b85c38;
+}
+
+.nutrient-item p {
+  font-size: 1.08em;
+  color: #444;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .nutrient-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .nutrient-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nutrient-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
