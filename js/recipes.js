@@ -47,9 +47,6 @@ recipes.forEach((recipe) => {
     thumb.src = imgSrc;
     thumb.alt = recipe.title + " thumbnail " + (idx + 1);
     thumb.className = "recipe-card__thumb";
-    thumb.style.cursor = "pointer";
-    thumb.style.width = "60px";
-    thumb.style.margin = "4px";
     thumb.onclick = () => {
       mainImg.src = imgSrc;
     };
