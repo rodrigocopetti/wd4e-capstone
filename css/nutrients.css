@@ -13,13 +13,13 @@
 
 .nutrient-item {
   display: flex;
-  flex-direction: column; /* Adicionado para empilhar verticalmente */
+  flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
   margin-bottom: 0;
   background: #fff8f3;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   padding: 1em;
 }
 
@@ -28,6 +28,7 @@
   height: 60px;
   object-fit: cover;
   border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(184, 92, 56, 0.4);
   flex-shrink: 0;
 }
 
