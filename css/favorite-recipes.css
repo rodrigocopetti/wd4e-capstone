@@ -1,14 +1,17 @@
+/* Main container for favorite recipes section */
 .favorite-recipes {
   margin: 3rem 0;
   text-align: center;
 }
 
+/* Section title styling */
 .favorite-recipes h2 {
   font-size: 1.4rem;
   margin-bottom: 2rem;
   color: var(--yi-h1-color);
 }
 
+/* Container for recipe cards */
 .favorite-recipes__cards {
   display: flex;
   gap: 2rem;
@@ -16,6 +19,7 @@
   flex-wrap: wrap;
 }
 
+/* Individual recipe card styling */
 .favorite-recipes__card {
   display: flex;
   flex-direction: column;
@@ -30,11 +34,13 @@
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
+/* Hover effect for recipe card */
 .favorite-recipes__card:hover {
   transform: translateY(-6px) scale(1.04);
   box-shadow: 0 6px 16px var(--yi-divider);
 }
 
+/* Recipe image styling */
 .favorite-recipes__card img {
   width: 100%;
   height: 120px;
@@ -43,6 +49,7 @@
   margin-bottom: 1rem;
 }
 
+/* Recipe name styling */
 .favorite-recipes__card span {
   font-weight: 500;
   font-size: 1rem;

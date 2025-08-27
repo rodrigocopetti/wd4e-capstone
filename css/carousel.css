@@ -38,7 +38,7 @@
   position: absolute;
   bottom: 16px;
   left: 16px;
-  background: rgba(0, 0, 0, 0.5); /* Mantido pois é transparência */
+  background: rgba(0, 0, 0, 0.5); /* Transparency for caption background */
   color: var(--yi-nav-hover-color);
   padding: 1rem;
   border-radius: 8px;

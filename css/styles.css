@@ -1,3 +1,4 @@
+/* Base body styles for layout and font */
 body {
   min-height: 100vh;
   display: flex;
@@ -6,11 +7,13 @@ body {
   font-size: 16px;
 }
 
+/* Main content area */
 main {
   flex: 1;
   padding: 3rem;
 }
 
+/* Footer styling */
 footer {
   background: var(--yi-surface);
   color: var(--yi-on-surface);
@@ -19,6 +22,7 @@ footer {
   box-shadow: 0 -2px 8px var(--yi-divider);
 }
 
+/* Main heading styles */
 h1 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -27,7 +31,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-/* Header layout */
+/* Header layout container */
 .header {
   width: 100%;
   background: var(--yi-surface);
@@ -35,25 +39,28 @@ h1 {
   box-shadow: 0 2px 8px var(--yi-divider);
 }
 
+/* Header inner container for logo and navigation */
 .header__container {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   margin: 0 auto;
   padding: 0.5rem 0.5rem;
   position: relative;
 }
 
+/* Logo container in header */
 .header__logo {
   flex: 1;
   display: flex;
   justify-content: center;
 }
 
+/* Logo image styling */
 .header__logo img {
   height: 3rem;
 }
 
+/* Navigation menu container (mobile default) */
 .header__nav {
   display: none;
   position: absolute;
@@ -61,20 +68,18 @@ h1 {
   left: 0;
   width: 85vw;
   max-width: 15rem;
-  background: var(--primary-bg, #fff);
+  background: var(--primary-bg, #fff); /* fallback for missing variable */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   z-index: 10;
-  /* border-radius: 0 0 8px 8px; */
 }
 
+/* Navigation list styling */
 .header__nav ul {
-  /* list-style: none; */
-  /* margin: 0; */
-  /* padding: 1rem; */
   flex-direction: column;
   padding-top: 2rem;
 }
 
+/* Navigation link styling */
 .header__nav a {
   display: block;
   padding: 1rem;
@@ -84,41 +89,38 @@ h1 {
   transition: color 0.2s;
 }
 
-
+/* Navigation item hover background */
 .header__nav li:hover {
   background: var(--yi-nav-hover-bgcolor);
 }
 
+/* Navigation link hover color */
 .header__nav a:hover {
   color: var(--yi-nav-hover-color);
 }
 
+/* Active navigation item background */
 .header__nav li.active {
   background-color: var(--yi-nav-active-bgcolor);
 }
 
+/* Active navigation link color */
 .header__nav li.active a {
   color: var(--yi-nav-active-color);
 }
 
-
-/* Botão hamburguer mostra menu no mobile */
-/* .header__menu-btn:focus + .header__logo + .header__nav,
-.header__menu-btn:active + .header__logo + .header__nav {
-  display: block;
-} */
-
+/* Show navigation when active (mobile) */
 .header__nav.active {
   display: block;
 }
 
+/* Header menu button styling */
 .header__btn {
   background: transparent;
   width: 3rem;
   height: 3rem;
   border: none;
   cursor: pointer;
-  /* margin-left: 1rem; */
   border-radius: 50%;
   padding: 0.5rem;
   transition: background 0.2s;
@@ -127,27 +129,30 @@ h1 {
   justify-content: center;
 }
 
+/* Header menu button hover effect */
 .header__btn:hover {
   background: var(--yi-primary-light);
   outline: none;
 }
 
+/* Icon inside header menu button */
 .header__btn i {
   font-size: 1.25rem;
   color: var(--yi-primary);
   transition: color 0.2s;
 }
 
+/* Icon color on header menu button hover */
 .header__btn:hover i {
   color: var(--yi-primary-dark);
 }
 
+/* User button in header */
 .header__user-btn {
   margin-left: auto;
-  /* display: flex;
-  align-items: center; */
 }
 
+/* Close button for mobile navigation */
 .header__close-btn {
   position: absolute;
   top: 0.5rem;
@@ -157,39 +162,47 @@ h1 {
   border: none;
 }
 
+/* Icon inside close button */
 .header__close-btn i {
   font-size: 1.25rem;
   color: var(--yi-primary-light);
   transition: color 0.2s;
 }
 
+/* Icon color on close button hover */
 .header__close-btn:hover i {
   color: var(--yi-primary-dark);
 }
 
+/* Main description section */
 .main__description {
   margin-bottom: 2rem;
 }
 
-/* Medium (Tablet) */
+/* Responsive styles for tablets */
 @media (min-width: 768px) {
+  /* Increase base font size */
   body {
     font-size: 18px;
   }
 
+  /* Larger heading */
   h1 {
     font-size: 2rem;
   }
 
+  /* Logo alignment for desktop */
   .header__logo {
     flex: 0;
     margin-right: 2rem;
   }
 
+  /* Larger logo image */
   .header__logo img {
     height: 48px;
   }
 
+  /* Navigation menu always visible on desktop */
   .header__nav {
     display: block !important;
     position: static;
@@ -200,6 +213,7 @@ h1 {
     border-radius: 0;
   }
 
+  /* Navigation list horizontal layout */
   .header__nav ul {
     display: flex;
     gap: 2rem;
@@ -208,10 +222,12 @@ h1 {
     flex-direction: row;
   }
 
+  /* Navigation item rounded corners */
   .header__nav li {
     border-radius: 6px;
   }
 
+  /* Hide menu and close buttons on desktop */
   .header__menu-btn {
     display: none !important;
   }
@@ -221,12 +237,12 @@ h1 {
   }
 }
 
-/* Large (Desktop) */
+/* Responsive styles for desktop */
 @media (min-width: 992px) {
 
 }
 
-/* Extra Large (Large Desktop) */
+/* Responsive styles for large desktop */
 @media (min-width: 1200px) {
   
 }

@@ -1,28 +1,37 @@
+/* Recipe card container */
 .recipe-card {
-  border: 1px solid #ddd;
+  border: 1px solid var(--yi-border);
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 24px;
   width: 320px;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background: var(--yi-surface);
+  box-shadow: 0 2px 8px var(--yi-card-shadow);
 }
+
+/* Main image container inside recipe card */
 .recipe-card__main-img-container {
   text-align: center;
   margin-bottom: 8px;
 }
+
+/* Main recipe image styling */
 .recipe-card__main-img {
   width: 100%;
   border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px var(--yi-box-shadow);
 }
+
+/* Thumbnails container inside recipe card */
 .recipe-card__thumbnails {
   display: flex;
   justify-content: center;
   margin-bottom: 8px;
 }
+
+/* Individual thumbnail image styling */
 .recipe-card__thumb {
-  border: 2px solid transparent;
+  border: 2px solid var(--yi-thumb-border);
   border-radius: 4px;
   transition: border 0.2s, opacity 0.3s;
   opacity: 0.7; 
@@ -30,10 +39,14 @@
   width: 4rem;
   margin: 0.25rem;
 }
+
+/* Hover effect for thumbnail */
 .recipe-card__thumb:hover {
-  border: 2px solid #f90;
+  border: 2px solid var(--yi-h1-color);
   opacity: 1;
 }
+
+/* Recipe title styling */
 .recipe-card__title {
   text-align: center;
   font-size: 1.2em;
@@ -41,36 +54,44 @@
   font-weight: 500;
   width: 100%;
 }
+
+/* View button styling */
 .recipe-card__view-btn {
   display: block;
   margin: 12px auto 0 auto;
   padding: 8px 20px;
-  background: #f90;
-  color: #000;
+  background: var(--yi-btn-bg);
+  color: var(--yi-on-surface);
   border: none;
   border-radius: 4px;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s;
 }
+
+/* Hover effect for view button */
 .recipe-card__view-btn:hover {
-  background: #e67c00;
+  background: var(--yi-btn-hover);
 }
 
+/* Container for all recipe cards */
 #recipe-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 
+/* Lightbox modal overlay */
 #lightbox-modal {
   position: fixed;
   z-index: 9999;
   left: 0; top: 0;
   width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.8);
+  background: var(--yi-modal-bg);
   display: none;
 }
+
+/* Image inside lightbox modal */
 #lightbox-modal img {
   position: fixed;
   top: 50%;
@@ -82,8 +103,10 @@
   border-radius: 8px;
   display: block;
 }
+
+/* Close button for lightbox modal */
 #lightbox-close {
-  color: #fff;
+  color: var(--yi-nav-hover-color);
   position: absolute;
   top: 20px;
   right: 30px;

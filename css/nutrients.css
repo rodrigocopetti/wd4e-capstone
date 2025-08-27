@@ -1,16 +1,11 @@
-/* Nutrients section styles */
-/* .nutrients-section {
-  max-width: 90vw;
-  margin: 2em auto;
-  padding: 0 1em;
-} */
-
+/* Container for the list of nutrients */
 .nutrient-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
 }
 
+/* Individual nutrient item card */
 .nutrient-item {
   display: flex;
   flex-direction: column;
@@ -23,6 +18,7 @@
   padding: 1em;
 }
 
+/* Nutrient image styling */
 .nutrient-img {
   width: 60px;
   height: 60px;
@@ -32,6 +28,7 @@
   flex-shrink: 0;
 }
 
+/* Header section for nutrient card */
 .nutrient-header {
   display: flex;
   align-items: center;
@@ -39,12 +36,14 @@
   margin-bottom: 0.5em;
 }
 
+/* Nutrient name/title styling */
 .nutrient-header h2 {
   margin-bottom: 0;
   font-size: 1.15em;
   color: var(--yi-accent);
 }
 
+/* Nutrient description paragraph */
 .nutrient-item p {
   font-size: 1.08em;
   color: var(--yi-text-secondary);
@@ -52,18 +51,21 @@
   text-align: justify;
 }
 
+/* Responsive: keep single column on tablets */
 @media (min-width: 768px) {
   .nutrient-list {
     grid-template-columns: 1fr;
   }
 }
 
+/* Responsive: two columns on desktops */
 @media (min-width: 992px) {
   .nutrient-list {
     grid-template-columns: 1fr 1fr;
   }
 }
 
+/* Responsive: three columns on large screens */
 @media (min-width: 1200px) {
   .nutrient-list {
     grid-template-columns: 1fr 1fr 1fr;
