@@ -2,12 +2,13 @@
   --yi-primary: #4285F4;      
   --yi-primary-light: #73a6f9;
   --yi-primary-dark: #1967d2;
-  --yi-surface: #FFFFFF;
+  --primary-bg: #fff; 
+  --yi-surface: #fff;
   --yi-on-surface: #202124;
   --yi-divider: #E0E0E0;
-  --yi-nav-hover-color: #FFFFFF;
+  --yi-nav-hover-color: #fff;
   --yi-nav-hover-bgcolor: #73a6f9;
-  --yi-nav-active-color: #000000;
+  --yi-nav-active-color: #000;
   --yi-nav-active-bgcolor: #f90;
   --yi-h1-color: #f90;
   --yi-card-bg: #fff8f3;
@@ -23,4 +24,5 @@
   --yi-box-shadow: rgba(0, 0, 0, 0.04);
   --yi-card-shadow: rgba(0, 0, 0, 0.05);
   --yi-carousel-shadow: rgba(0, 0, 0, 0.08);
+  
 }
