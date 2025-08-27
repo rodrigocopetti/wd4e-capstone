@@ -61,6 +61,12 @@
         <button class="recipe-card__view-btn">View Recipe</button>
       </div>
     </template>
+
+    <!-- Modal Lightbox -->
+    <div id="lightbox-modal" style="display:none;">
+      <span id="lightbox-close" style="position:absolute;top:20px;right:30px;font-size:2rem;cursor:pointer;">&times;</span>
+      <img id="lightbox-img" src="" alt="Expanded recipe image" style="max-width:90vw;max-height:90vh;display:block;margin:auto;">
+    </div>
   </main>
   <footer>
     <p>&copy; 2025 YUMISTRY. All rights reserved.</p>
@@ -68,5 +74,21 @@
 
   <script src="../js/scripts.js"></script>
   <script src="../js/recipes.js"></script>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.addEventListener('click', function(e) {
+    if (e.target.classList.contains('recipe-card__main-img')) {
+      const src = e.target.src;
+      const modal = document.getElementById('lightbox-modal');
+      const img = document.getElementById('lightbox-img');
+      img.src = src;
+      modal.style.display = 'block';
+    }
+    if (e.target.id === 'lightbox-close' || e.target.id === 'lightbox-modal') {
+      document.getElementById('lightbox-modal').style.display = 'none';
+    }
+  });
+});
+</script>
 </body>
 </html>

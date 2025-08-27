@@ -63,5 +63,34 @@
   gap: 24px;
 }
 
+#lightbox-modal {
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.8);
+  display: none;
+}
+#lightbox-modal img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 90vw;
+  max-height: 90vh;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px #000;
+  border-radius: 8px;
+  display: block;
+}
+#lightbox-close {
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10000;
+}
+
 
 
