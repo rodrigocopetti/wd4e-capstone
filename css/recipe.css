@@ -94,15 +94,15 @@
 .back-link {
   display: inline-block;
   margin-bottom: 2rem;
-  color: var(--yi-primary, #b85c38);
+  color: var(--yi-back-link, #b85c38);
   text-decoration: underline;
   font-weight: 500;
   font-size: 1.08em;
   transition: color 0.2s;
+  text-decoration: none;
 }
 
 /* Back link hover effect */
 .back-link:hover {
-  color: var(--yi-primary-dark, #8c3c1a);
-  text-decoration: none;
+  color: var(--yi-primary, #8c3c1a);
 }
