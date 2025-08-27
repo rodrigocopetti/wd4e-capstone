@@ -1,4 +1,5 @@
 const recipes = [
+  // Array of recipe objects with title, images, and link
   {
     title: "Roast Pork Loin",
     images: [
@@ -31,6 +32,7 @@ const recipes = [
 const cardsContainer = document.getElementById("recipe-cards");
 const template = document.getElementById("recipe-card-template");
 
+// Creates and appends recipe cards to the container
 recipes.forEach((recipe) => {
   const card = template.content.cloneNode(true);
   const mainImg = card.querySelector(".recipe-card__main-img");
@@ -42,6 +44,7 @@ recipes.forEach((recipe) => {
   mainImg.alt = recipe.title + " main image";
   title.textContent = recipe.title;
 
+  // Adds thumbnail images and click event to change main image
   recipe.images.forEach((imgSrc, idx) => {
     const thumb = document.createElement("img");
     thumb.src = imgSrc;
@@ -53,9 +56,29 @@ recipes.forEach((recipe) => {
     thumbnails.appendChild(thumb);
   });
 
+  // Adds click event to view button to navigate to recipe page
   viewBtn.onclick = () => {
     window.location.href = recipe.link;
   };
 
   cardsContainer.appendChild(card);
 });
+
+// Handles lightbox modal for main image preview
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.addEventListener('click', function(e) {
+    // Opens lightbox modal when main image is clicked
+    if (e.target.classList.contains('recipe-card__main-img')) {
+      const src = e.target.src;
+      const modal = document.getElementById('lightbox-modal');
+      const img = document.getElementById('lightbox-img');
+      img.src = src;
+      modal.style.display = 'block';
+    }
+    // Closes lightbox modal when close button or modal background is clicked
+    if (e.target.id === 'lightbox-close' || e.target.id === 'lightbox-modal') {
+      document.getElementById('lightbox-modal').style.display = 'none';
+    }
+  });
+});
+

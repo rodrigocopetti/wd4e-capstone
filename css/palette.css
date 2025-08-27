@@ -1,50 +1,28 @@
 :root {
-  /* Primary Colors */
   --yi-primary: #4285F4;      
   --yi-primary-light: #73a6f9;
   --yi-primary-dark: #1967d2;
-
-  /* Secondary Colors */
-  /* --yi-secondary: #EA4335;     
-  --yi-secondary-light: #ff6f60;
-  --yi-secondary-dark: #b31412; */
-
-  /* Success & Error */
-  /* --yi-success: #34A853;       
-  --yi-success-light: #7bc67e;
-  --yi-success-dark: #257942; */
-
-  /* --yi-error: #EA4335;
-  --yi-error-light: #ff6f60;
-  --yi-error-dark: #b31412; */
-
-  /* Warning & Info */
-  /* --yi-warning: #FBBC05;       
-  --yi-warning-light: #ffe083;
-  --yi-warning-dark: #c49000; */
-
-  /* --yi-info: #4285F4;
-  --yi-info-light: #73a6f9;
-  --yi-info-dark: #1967d2; */
-
-  /* Neutral / Background */
-  /* --yi-background: #F5F5F5; */
   --yi-surface: #FFFFFF;
-  /* --yi-on-primary: #FFFFFF; */
-  /* --yi-on-secondary: #FFFFFF; */
-  /* --yi-on-background: #202124; */
   --yi-on-surface: #202124;
-
-  /* Divider/Borders */
   --yi-divider: #E0E0E0;
-
-
   --yi-nav-hover-color: #FFFFFF;
   --yi-nav-hover-bgcolor: #73a6f9;
-
   --yi-nav-active-color: #000000;
   --yi-nav-active-bgcolor: orange;
-
   --yi-h1-color: orange;
 
+  /* Novas variáveis */
+  --yi-card-bg: #fff8f3;
+  --yi-accent: #b85c38;
+  --yi-text-secondary: #444;
+  --yi-description-bg: #faf7f2;
+  --yi-btn-hover: #e67c00;
+  --yi-btn-bg: #f90;
+  --yi-border: #ddd;
+  --yi-thumb-border: #bbb;
+  --yi-thumb-shadow: rgba(184, 92, 56, 0.4);
+  --yi-modal-bg: rgba(0,0,0,0.8);
+  --yi-box-shadow: rgba(0, 0, 0, 0.04);
+  --yi-card-shadow: rgba(0, 0, 0, 0.05);
+  --yi-carousel-shadow: rgba(0, 0, 0, 0.08);
 }

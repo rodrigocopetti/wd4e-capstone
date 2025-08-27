@@ -74,21 +74,5 @@
 
   <script src="../js/scripts.js"></script>
   <script src="../js/recipes.js"></script>
-  <script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.body.addEventListener('click', function(e) {
-    if (e.target.classList.contains('recipe-card__main-img')) {
-      const src = e.target.src;
-      const modal = document.getElementById('lightbox-modal');
-      const img = document.getElementById('lightbox-img');
-      img.src = src;
-      modal.style.display = 'block';
-    }
-    if (e.target.id === 'lightbox-close' || e.target.id === 'lightbox-modal') {
-      document.getElementById('lightbox-modal').style.display = 'none';
-    }
-  });
-});
-</script>
 </body>
 </html>

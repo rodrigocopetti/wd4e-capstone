@@ -17,9 +17,9 @@
   align-items: flex-start;
   gap: 0.5rem;
   margin-bottom: 0;
-  background: #fff8f3;
+  background: var(--yi-card-bg);
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 8px var(--yi-box-shadow);
   padding: 1em;
 }
 
@@ -28,7 +28,7 @@
   height: 60px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(184, 92, 56, 0.4);
+  box-shadow: 0 2px 8px var(--yi-thumb-shadow);
   flex-shrink: 0;
 }
 
@@ -42,12 +42,12 @@
 .nutrient-header h2 {
   margin-bottom: 0;
   font-size: 1.15em;
-  color: #b85c38;
+  color: var(--yi-accent);
 }
 
 .nutrient-item p {
   font-size: 1.08em;
-  color: #444;
+  color: var(--yi-text-secondary);
   line-height: 1.6;
   text-align: justify;
 }

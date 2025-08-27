@@ -4,8 +4,8 @@
   margin: 2rem auto;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  background: var(--yi-surface, #fff);
+  box-shadow: 0 4px 24px var(--yi-carousel-shadow);
+  background: var(--yi-surface);
 }
 
 .carousel__slides {
@@ -38,8 +38,8 @@
   position: absolute;
   bottom: 16px;
   left: 16px;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background: rgba(0, 0, 0, 0.5); /* Mantido pois é transparência */
+  color: var(--yi-nav-hover-color);
   padding: 1rem;
   border-radius: 8px;
 }
@@ -48,7 +48,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--yi-primary-light, #eee);
+  background: var(--yi-primary-light);
   border: none;
   border-radius: 50%;
   width: 2.5rem;
@@ -59,7 +59,7 @@
   cursor: pointer;
   z-index: 2;
   font-size: 1.25rem;
-  color: var(--yi-primary-dark, #333);
+  color: var(--yi-primary-dark);
   transition: background 0.2s;
 }
 
@@ -72,8 +72,8 @@
 }
 
 .carousel__control:hover {
-  background: var(--yi-primary, #ccc);
-  color: #fff;
+  background: var(--yi-primary);
+  color: var(--yi-nav-hover-color);
 }
 
 .carousel__indicators {
@@ -89,12 +89,12 @@
   display: block;
   width: 12px;
   height: 12px;
-  background: var(--yi-divider, #bbb);
+  background: var(--yi-divider);
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.2s;
 }
 
 .carousel__indicators .active {
-  background: var(--yi-primary, #333);
+  background: var(--yi-primary);
 }

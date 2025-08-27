@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
   let current = 0;
   let timer;
 
+  /**
+   * Displays the slide at the given index and updates indicators.
+   * @param {number} idx - Index of the slide to show.
+   */
   function showSlide(idx) {
     slides.forEach((slide, i) => {
       slide.classList.toggle('active', i === idx);
@@ -14,10 +18,16 @@ document.addEventListener('DOMContentLoaded', function() {
     current = idx;
   }
 
+  /**
+   * Advances to the next slide in the carousel.
+   */
   function nextSlide() {
     showSlide((current + 1) % slides.length);
   }
 
+  /**
+   * Goes back to the previous slide in the carousel.
+   */
   function prevSlide() {
     showSlide((current - 1 + slides.length) % slides.length);
   }
@@ -39,6 +49,9 @@ document.addEventListener('DOMContentLoaded', function() {
     resetTimer();
   });
 
+  /**
+   * Resets the auto-slide timer.
+   */
   function resetTimer() {
     clearInterval(timer);
     timer = setInterval(nextSlide, 4000);
