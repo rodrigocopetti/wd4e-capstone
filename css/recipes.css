@@ -92,7 +92,7 @@
 }
 
 /* Image inside lightbox modal */
-#lightbox-modal img {
+#lightbox-img {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -102,6 +102,7 @@
   box-shadow: 0 0 20px #000;
   border-radius: 8px;
   display: block;
+  margin: auto;
 }
 
 /* Close button for lightbox modal */

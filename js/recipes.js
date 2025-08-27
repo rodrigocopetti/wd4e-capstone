@@ -70,14 +70,24 @@ document.addEventListener('DOMContentLoaded', function() {
     // Opens lightbox modal when main image is clicked
     if (e.target.classList.contains('recipe-card__main-img')) {
       const src = e.target.src;
-      const modal = document.getElementById('lightbox-modal');
-      const img = document.getElementById('lightbox-img');
+      // Remove any existing modal
+      const oldModal = document.getElementById('lightbox-modal');
+      if (oldModal) oldModal.remove();
+
+      // Clone template and set image src
+      const template = document.getElementById('lightbox-modal-template');
+      const modalFragment = template.content.cloneNode(true);
+      const modalDiv = modalFragment.querySelector('#lightbox-modal');
+      const img = modalFragment.querySelector('#lightbox-img');
       img.src = src;
-      modal.style.display = 'block';
+      modalDiv.style.display = 'block';
+
+      document.body.appendChild(modalDiv);
     }
     // Closes lightbox modal when close button or modal background is clicked
     if (e.target.id === 'lightbox-close' || e.target.id === 'lightbox-modal') {
-      document.getElementById('lightbox-modal').style.display = 'none';
+      const modal = document.getElementById('lightbox-modal');
+      if (modal) modal.remove();
     }
   });
 });
