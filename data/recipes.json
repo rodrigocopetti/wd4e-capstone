@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Roast Pork Loin",
+    "images": [
+      "/images/roast_pork_loin/img1.jpg",
+      "/images/roast_pork_loin/img2.jpg",
+      "/images/roast_pork_loin/img3.jpg"
+    ],
+    "link": "/pages/recipes/roast_pork_loin.html"
+  },
+  {
+    "title": "Shrimp with garlic and oil",
+    "images": [
+      "/images/shrimp_with_garlic_and_oil/img1.jpg",
+      "/images/shrimp_with_garlic_and_oil/img2.jpg",
+      "/images/shrimp_with_garlic_and_oil/img3.jpg"
+    ],
+    "link": "/pages/recipes/shrimp_with_garlic_and_oil.html"
+  },
+  {
+    "title": "Tomatoes stuffed with seasoned ricotta cream",
+    "images": [
+      "/images/tomatoes_stuffed_with_ricotta/img1.jpg",
+      "/images/tomatoes_stuffed_with_ricotta/img2.jpg",
+      "/images/tomatoes_stuffed_with_ricotta/img3.jpg"
+    ],
+    "link": "/pages/recipes/tomatoes_stuffed_with_ricotta.html"
+  }
+]

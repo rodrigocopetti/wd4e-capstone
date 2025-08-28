@@ -1,0 +1,92 @@
+[
+  {
+    "img": "/images/ingredients/arugula.jpg",
+    "alt": "Arugula",
+    "title": "Arugula Nutrients",
+    "desc": "Arugula is a leafy green vegetable that is low in calories and high in vitamins A, C, and K. It also contains calcium, potassium, and folate, making it a nutritious addition to salads and other dishes."
+  },
+  {
+    "img": "/images/ingredients/bay_leaves.jpg",
+    "alt": "Bay Leaves",
+    "title": "Bay Leaves Nutrients",
+    "desc": "Bay leaves are known for their aromatic flavor and are often used in cooking. They contain vitamins A, C, and B6, as well as minerals like manganese, calcium, and iron. Bay leaves also have anti-inflammatory properties and may aid digestion."
+  },
+  {
+    "img": "/images/ingredients/chives.jpg",
+    "alt": "Chives",
+    "title": "Chives Nutrients",
+    "desc": "Chives are a low-calorie herb that is high in vitamins A and C, as well as minerals like calcium and potassium. They also contain antioxidants and have anti-inflammatory properties."
+  },
+  {
+    "img": "/images/ingredients/garlic.jpg",
+    "alt": "Garlic",
+    "title": "Garlic Nutrients",
+    "desc": "Garlic is known for its medicinal properties and is rich in vitamins C and B6, manganese, and selenium. It also contains antioxidants and has anti-inflammatory effects."
+  },
+  {
+    "img": "/images/ingredients/lemon.jpg",
+    "alt": "Lemon",
+    "title": "Lemon Nutrients",
+    "desc": "Lemons are a rich source of vitamin C and contain various beneficial plant compounds. They are low in calories and high in fiber, making them a healthy addition to your diet."
+  },
+  {
+    "img": "/images/ingredients/lettuce.jpg",
+    "alt": "Lettuce",
+    "title": "Lettuce Nutrients",
+    "desc": "Lettuce is a low-calorie leafy green vegetable that is high in water content. It provides vitamins A, C, and K, as well as folate and iron. Lettuce is also a good source of dietary fiber."
+  },
+  {
+    "img": "/images/ingredients/oil.jpg",
+    "alt": "Oil",
+    "title": "Oil Nutrients",
+    "desc": "Oil is a concentrated source of energy and essential fatty acids. It also contains vitamin E and other antioxidants that can help protect the body from oxidative stress."
+  },
+  {
+    "img": "/images/ingredients/olive_oil.jpg",
+    "alt": "Olive Oil",
+    "title": "Olive Oil Nutrients",
+    "desc": "Olive oil is rich in monounsaturated fats and antioxidants, particularly vitamin E. It has anti-inflammatory properties and is associated with heart health."
+  },
+  {
+    "img": "/images/ingredients/onion.jpg",
+    "alt": "Onion",
+    "title": "Onion Nutrients",
+    "desc": "Onions are low in calories but rich in vitamins and minerals, particularly vitamin C, B vitamins, and potassium. They also contain antioxidants and have anti-inflammatory properties."
+  },
+  {
+    "img": "/images/ingredients/pepper.jpg",
+    "alt": "Pepper",
+    "title": "Pepper Nutrients",
+    "desc": "Pepper is rich in vitamins A, C, and K, as well as antioxidants. It has anti-inflammatory properties and may help improve digestion."
+  },
+  {
+    "img": "/images/ingredients/pork_loin.jpg",
+    "alt": "Pork Loin",
+    "title": "Pork Loin Nutrients",
+    "desc": "Pork loin is a good source of protein, B vitamins (especially B6 and B12), and minerals such as zinc and selenium. It is relatively low in fat compared to other cuts of pork."
+  },
+  {
+    "img": "/images/ingredients/salt.jpg",
+    "alt": "Salt",
+    "title": "Salt Nutrients",
+    "desc": "Salt is essential for maintaining fluid balance, nerve function, and muscle contractions. It also helps regulate blood pressure and is necessary for the production of stomach acid."
+  },
+  {
+    "img": "/images/ingredients/shrimp.jpg",
+    "alt": "Shrimp",
+    "title": "Shrimp Nutrients",
+    "desc": "Shrimp is high in protein, contains essential amino acids with high digestibility, and has a low fat content. It also provides omega-3, omega-6, and nutrients such as calcium, potassium, sodium, phosphorus, iron, zinc, and B-complex vitamins."
+  },
+  {
+    "img": "/images/ingredients/ricotta.jpg",
+    "alt": "Tirolez Ricotta Cream",
+    "title": "Tirolez Ricotta Cream Nutrients",
+    "desc": "Tirolez ricotta cream is a good source of protein and calcium. It is lower in fat than many other cheeses and contains beneficial nutrients such as vitamin A and B vitamins."
+  },
+  {
+    "img": "/images/ingredients/tomato.jpg",
+    "alt": "Tomato",
+    "title": "Tomato Nutrients",
+    "desc": "Tomatoes are rich in vitamins C and K, potassium, and folate. They are also a great source of antioxidants, particularly lycopene, which has been linked to many health benefits."
+  }
+]
