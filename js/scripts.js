@@ -1,4 +1,8 @@
-import { getBasePath } from "./general.js";
+// import { getBasePath } from "./general.js";
+
+function getBasePath() {
+  return window.location.pathname.includes("wd4e-capstone") ? "/wd4e-capstone" : "";
+}
 
 document.addEventListener("DOMContentLoaded", function () {
   const basePath = getBasePath();
