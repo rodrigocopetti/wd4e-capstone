@@ -44,15 +44,15 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   }
 
-  // Back link (mantém igual)
+  // Back link
   const referrer = document.referrer;
   const backLink = document.getElementById("back-link");
   if (backLink) {
     if (referrer.includes("index.html")) {
-      backLink.href = "../../index.html";
+      backLink.href = `${basePath}/index.html`;
       backLink.textContent = "← Back to Home";
     } else {
-      backLink.href = "../recipes.html";
+      backLink.href = `${basePath}/pages/recipes.html`;
       backLink.textContent = "← Back to Recipes";
     }
   }
