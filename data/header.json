@@ -1,0 +1,12 @@
+{
+  "logo": {
+    "src": "/images/logo.png",
+    "alt": "YUMISTRY Logo",
+    "href": "/index.html"
+  },
+  "links": [
+    { "label": "Home", "href": "/index.html#home" },
+    { "label": "Recipes", "href": "/pages/recipes.html" },
+    { "label": "Nutrients", "href": "/pages/nutrients.html" }
+  ]
+}
