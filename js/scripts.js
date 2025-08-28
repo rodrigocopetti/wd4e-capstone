@@ -10,7 +10,7 @@ function getBasePath() {
   }
   // Retorna apenas a primeira subpasta do domínio
   // return `/${parts[1]}`;
-  return '';
+  return '/wd4e-capstone';
 }
 
 document.addEventListener('DOMContentLoaded', function() {
