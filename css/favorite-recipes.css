@@ -52,6 +52,6 @@
 /* Recipe name styling */
 .favorite-recipes__card span {
   font-weight: 500;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   text-align: center;
 }

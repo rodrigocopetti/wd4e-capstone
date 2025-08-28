@@ -183,7 +183,7 @@ h1 {
 @media (min-width: 768px) {
   /* Increase base font size */
   body {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   /* Larger heading */

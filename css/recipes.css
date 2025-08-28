@@ -1,12 +1,14 @@
 /* Recipe card container */
 .recipe-card {
-  border: 1px solid var(--yi-border);
-  border-radius: 8px;
   padding: 16px;
   margin-bottom: 24px;
   width: 320px;
+  /* background: var(--color-white);
+  box-shadow: 0 2px 8px var(--color-black-shadow-05); */
   background: var(--color-white);
-  box-shadow: 0 2px 8px var(--color-black-shadow-05);
+  border: 1px solid var(--yi-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px var(--color-grey-light);
 }
 
 /* Main image container inside recipe card */
