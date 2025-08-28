@@ -62,11 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Footer
-  const footerContainer = document.createElement("div");
-  fetch(`${basePath}/partials/footer__container.html`)
-    .then((response) => response.text())
-    .then((html) => {
-      footerContainer.innerHTML = html;
-      document.body.appendChild(footerContainer);
-    });
+  // const footerContainer = document.createElement("div");
+  // fetch(`${basePath}/partials/footer__container.html`)
+  //   .then((response) => response.text())
+  //   .then((html) => {
+  //     footerContainer.innerHTML = html;
+  //     document.body.appendChild(footerContainer);
+  //   });
 });
