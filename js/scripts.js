@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
         if (logoImg) {
           logoImg.src = `${basePath}/images/logo.png`;
         }
-        header.querySelectorAll(".header__nav a").forEach((a) => {
+        // .header__nav
+        header.querySelectorAll("a").forEach((a) => {
           a.href = `${basePath}/${a.getAttribute("href")}`;
         });
 
