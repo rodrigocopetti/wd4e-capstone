@@ -14,12 +14,12 @@ function getBasePath() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  const basePath = getBasePath();
   const header = document.getElementById('main-header');
   if (header) {
-    fetch('/data/header.json')
+    fetch(`${basePath}/data/header.json`)
       .then(response => response.json())
       .then(data => {
-        const basePath = getBasePath();
         header.innerHTML = `
           <div class="header__container">
             <button class="header__btn header__menu-btn" aria-label="Abrir menu">
