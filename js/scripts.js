@@ -56,4 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
       backLink.textContent = "← Back to Recipes";
     }
   }
+
+  // Footer
+  const footerContainer = document.createElement("div");
+  fetch(`${basePath}/partials/footer__container.html`)
+    .then((response) => response.text())
+    .then((html) => {
+      footerContainer.innerHTML = html;
+      document.body.appendChild(footerContainer);
+    });
 });
