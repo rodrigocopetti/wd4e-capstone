@@ -4,8 +4,8 @@
   margin: 2rem auto;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 24px var(--yi-carousel-shadow);
-  background: var(--yi-surface);
+  box-shadow: 0 4px 24px var(--color-black-shadow-08);
+  background: var(--color-white);
 }
 
 .carousel__slides {
@@ -39,7 +39,7 @@
   bottom: 16px;
   left: 16px;
   background: rgba(0, 0, 0, 0.5); /* Transparency for caption background */
-  color: var(--yi-nav-hover-color);
+  color: var(--color-white);
   padding: 1rem;
   border-radius: 8px;
 }
@@ -48,7 +48,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--yi-primary-light);
+  background: var(--color-blue-light);
   border: none;
   border-radius: 50%;
   width: 2.5rem;
@@ -59,7 +59,7 @@
   cursor: pointer;
   z-index: 2;
   font-size: 1.25rem;
-  color: var(--yi-primary-dark);
+  color: var(--color-blue-dark);
   transition: background 0.2s;
 }
 
@@ -72,8 +72,8 @@
 }
 
 .carousel__control:hover {
-  background: var(--yi-primary);
-  color: var(--yi-nav-hover-color);
+  background: var(--color-blue);
+  color: var(--color-white);
 }
 
 .carousel__indicators {
@@ -89,12 +89,12 @@
   display: block;
   width: 12px;
   height: 12px;
-  background: var(--yi-divider);
+  background: var(--color-grey-light);
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.2s;
 }
 
 .carousel__indicators .active {
-  background: var(--yi-primary);
+  background: var(--color-blue);
 }

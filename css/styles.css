@@ -15,11 +15,11 @@ main {
 
 /* Footer styling */
 footer {
-  background: var(--yi-surface);
-  color: var(--yi-on-surface);
+  background: var(--color-white);
+  color: var(--color-black-01);
   text-align: center;
   padding: 1rem 0;
-  box-shadow: 0 -2px 8px var(--yi-divider);
+  box-shadow: 0 -2px 8px var(--color-grey-light);
 }
 
 /* Main heading styles */
@@ -27,16 +27,16 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
-  color: var(--yi-h1-color);
+  color: var(--color-brown_01);
   margin-bottom: 1rem;
 }
 
 /* Header layout container */
 .header {
   width: 100%;
-  background: var(--yi-surface);
-  color: var(--yi-on-surface);
-  box-shadow: 0 2px 8px var(--yi-divider);
+  background: var(--color-white);
+  color: var(--color-black-01);
+  box-shadow: 0 2px 8px var(--color-grey-light);
 }
 
 /* Header inner container for logo and navigation */
@@ -68,7 +68,7 @@ h1 {
   left: 0;
   width: 85vw;
   max-width: 15rem;
-  background: var(--primary-bg, #fff); /* fallback for missing variable */
+  background: var(--color-white, #fff); /* fallback for missing variable */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   z-index: 10;
 }
@@ -83,7 +83,7 @@ h1 {
 .header__nav a {
   display: block;
   padding: 1rem;
-  color: var(--yi-primary-dark);
+  color: var(--color-blue-dark);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
@@ -91,22 +91,22 @@ h1 {
 
 /* Navigation item hover background */
 .header__nav li:hover {
-  background: var(--yi-nav-hover-bgcolor);
+  background: var(--color-blue-light);
 }
 
 /* Navigation link hover color */
 .header__nav a:hover {
-  color: var(--yi-nav-hover-color);
+  color: var(--color-white);
 }
 
 /* Active navigation item background */
 .header__nav li.active {
-  background-color: var(--yi-nav-active-bgcolor);
+  background-color: var(--color-orange);
 }
 
 /* Active navigation link color */
 .header__nav li.active a {
-  color: var(--yi-nav-active-color);
+  color: var(--color-black);
 }
 
 /* Show navigation when active (mobile) */
@@ -131,20 +131,20 @@ h1 {
 
 /* Header menu button hover effect */
 .header__btn:hover {
-  background: var(--yi-primary-light);
+  background: var(--color-blue-light);
   outline: none;
 }
 
 /* Icon inside header menu button */
 .header__btn i {
   font-size: 1.25rem;
-  color: var(--yi-primary);
+  color: var(--color-blue);
   transition: color 0.2s;
 }
 
 /* Icon color on header menu button hover */
 .header__btn:hover i {
-  color: var(--yi-primary-dark);
+  color: var(--color-blue-dark);
 }
 
 /* User button in header */
@@ -165,13 +165,13 @@ h1 {
 /* Icon inside close button */
 .header__close-btn i {
   font-size: 1.25rem;
-  color: var(--yi-primary-light);
+  color: var(--color-blue-light);
   transition: color 0.2s;
 }
 
 /* Icon color on close button hover */
 .header__close-btn:hover i {
-  color: var(--yi-primary-dark);
+  color: var(--color-blue-dark);
 }
 
 /* Main description section */

@@ -8,7 +8,7 @@
 .favorite-recipes h2 {
   font-size: 1.4rem;
   margin-bottom: 2rem;
-  color: var(--yi-h1-color);
+  color: var(--color-brown_01);
 }
 
 /* Container for recipe cards */
@@ -24,11 +24,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--yi-surface);
+  background: var(--color-white);
   border-radius: 12px;
-  box-shadow: 0 2px 8px var(--yi-divider);
+  box-shadow: 0 2px 8px var(--color-grey-light);
   text-decoration: none;
-  color: var(--yi-primary-dark);
+  color: var(--color-blue-dark);
   width: 180px;
   padding: 1rem;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -37,7 +37,7 @@
 /* Hover effect for recipe card */
 .favorite-recipes__card:hover {
   transform: translateY(-6px) scale(1.04);
-  box-shadow: 0 6px 16px var(--yi-divider);
+  box-shadow: 0 6px 16px var(--color-grey-light);
 }
 
 /* Recipe image styling */

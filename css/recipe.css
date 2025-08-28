@@ -6,7 +6,7 @@
 /* Ingredients section title */
 .recipe-ingredients h2 {
   font-size: 1.35em;
-  color: var(--yi-accent);
+  color: var(--color-brown_01);
   margin-bottom: 1em;
 }
 
@@ -23,9 +23,9 @@
 .recipe-ingredients li {
   display: flex;
   align-items: center;
-  background: var(--yi-card-bg);
+  background: var(--color-cream);
   border-radius: 10px;
-  box-shadow: 0 2px 8px var(--yi-box-shadow);
+  box-shadow: 0 2px 8px var(--color-black-shadow-05);
   padding: 1em;
 }
 
@@ -35,7 +35,7 @@
   height: 60px;
   margin-right: 1em;
   border-radius: 8px;
-  box-shadow: 0 2px 8px var(--yi-thumb-shadow);
+  box-shadow: 0 2px 8px var(--color-thumb-shadow);
   object-fit: cover;
 }
 
@@ -60,16 +60,16 @@
   text-align: justify;
   font-size: 1.15em;
   line-height: 1.7;
-  color: var(--yi-text-secondary);
-  background: var(--yi-description-bg);
+  color: var(--color-grey-dark);
+  background: var(--color-cream-light);
   padding: 1.5em 2em;
   border-radius: 12px;
-  box-shadow: 0 2px 8px var(--yi-box-shadow);
+  box-shadow: 0 2px 8px var(--color-black-shadow-05);
 }
 
 /* Highlighted text in recipe description */
 .recipe-description__highlight {
-  color: var(--yi-accent);
+  color: var(--color-brown_01);
   font-weight: 500;
 }
 
@@ -94,7 +94,7 @@
 .back-link {
   display: inline-block;
   margin-bottom: 2rem;
-  color: var(--yi-back-link, #b85c38);
+  color: var(--color-blue-dark, #b85c38);
   text-decoration: underline;
   font-weight: 500;
   font-size: 1.08em;
@@ -104,5 +104,5 @@
 
 /* Back link hover effect */
 .back-link:hover {
-  color: var(--yi-primary, #8c3c1a);
+  color: var(--color-blue, #8c3c1a);
 }

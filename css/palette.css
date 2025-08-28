@@ -1,29 +1,52 @@
 :root {
-  --yi-primary: #4285F4;      
-  --yi-primary-light: #73a6f9;
-  --yi-primary-dark: #1967d2;
-  --primary-bg: #fff; 
-  --yi-surface: #fff;
-  --yi-on-surface: #202124;
-  --yi-divider: #E0E0E0;
-  --yi-nav-hover-color: #fff;
-  --yi-nav-hover-bgcolor: #73a6f9;
-  --yi-nav-active-color: #000;
-  --yi-nav-active-bgcolor: #f90;
-  --yi-h1-color: #b85c38;
-  --yi-card-bg: #fff8f3;
-  --yi-accent: #b85c38;
-  --yi-text-secondary: #444;
-  --yi-description-bg: #faf7f2;
-  --yi-btn-hover: #e67c00;
-  --yi-btn-bg: #f90;
-  --yi-border: #ddd;
-  --yi-thumb-border: #bbb;
-  --yi-thumb-shadow: rgba(184, 92, 56, 0.4);
-  --yi-modal-bg: rgba(0,0,0,0.8);
-  --yi-box-shadow: rgba(0, 0, 0, 0.04);
-  --yi-card-shadow: rgba(0, 0, 0, 0.05);
-  --yi-carousel-shadow: rgba(0, 0, 0, 0.08);
-  --yi-back-link: #1967d2;
-  
+
+  --color-blue: #4285F4;
+  --color-blue-light: #73a6f9;
+  --color-blue-dark: #1967d2;
+  --color-white: #fff;
+  --color-cream: #fff8f3;
+  --color-cream-light: #faf7f2;
+  --color-grey: #ddd;
+  --color-grey-light: #E0E0E0;
+  --color-grey-dark: #444;
+  --color-black: #000;
+  --color-black-01: #202124;
+  --color-orange: #f90;
+  --color-orange-dark: #e67c00;
+  --color-brown_01: #b85c38;
+  --color-thumb-border: #bbb;
+  --color-thumb-shadow: rgba(184, 92, 56, 0.4);
+  --color-black-shadow-05: rgba(0, 0, 0, 0.05);
+  --color-black-shadow-08: rgba(0, 0, 0, 0.08);
+
+
+  /* --yi-primary: #4285F4;       */
+  /* --yi-primary-light: #73a6f9; */
+  /* --yi-primary-dark: #1967d2; */
+  /* --primary-bg: #fff;  */
+  /* --yi-surface: #fff; */
+  /* --yi-on-surface: #202124; */
+  /* --yi-divider: #E0E0E0; */
+  /* --yi-nav-hover-color: #fff; */
+  /* --yi-nav-hover-bgcolor: #73a6f9; */
+  /* --yi-nav-active-color: #000; */
+  /* --yi-nav-active-bgcolor: #f90; */
+  /* --yi-h1-color: #b85c38; */
+  /* --yi-card-bg: #fff8f3; */
+  /* --yi-accent: #b85c38; */
+  /* --yi-text-secondary: #444; */
+  /* --yi-description-bg: #faf7f2; */
+  /* --yi-btn-hover: #e67c00; */
+  /* --yi-btn-bg: #f90; */
+  /* --yi-border: #ddd; */
+  /* --yi-thumb-border: #bbb; */
+  /* --yi-thumb-shadow: rgba(184, 92, 56, 0.4); */
+  /* --yi-modal-bg: rgba(0,0,0,0.8); */
+  /* --yi-box-shadow: rgba(0, 0, 0, 0.04); */
+  /* --yi-card-shadow: rgba(0, 0, 0, 0.05); */
+  /* --yi-carousel-shadow: rgba(0, 0, 0, 0.08); */
+  /* --yi-back-link: #1967d2; */
+
+
+
 }
